@@ -1,0 +1,49 @@
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(204, 231, 231);
+    height: 98vh;
+    gap: 5px;
+}
+
+.game__opponent {
+    flex-grow: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game__opponent--win {
+    color: greenyellow;
+}
+.game__opponent--lose {
+    color: red;
+}
+
+.game__stats {
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 15pt;
+}
+
+.game__player {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 10px;
+}
+
+.game__button {
+    flex-grow: 1;
+
+}
+
+i {
+    pointer-events: none;
+    font-size: 100pt;
+}
